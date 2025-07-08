@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    color: #ffffff;
+}
+
+.card{
+    width: 370px;
+    background-color: rgba(56, 136, 255, 0.671);
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;    
+}
+
+.search input{
+    flex: 1;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 0px solid lightgrey;
+    outline: none;
+    background-color:rgb(170, 201, 248);
+    color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: 600;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+
+.search svg{
+    background-color: rgb(170, 201, 248);
+    border-radius: 30px;
+    padding: 11px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0px solid lightgrey;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.search svg:hover{
+    background-color: rgb(151, 189, 245);
+}
+
+.search button{
+    border: none;
+    background-color: #ffffff00;
+}
+
+
+.search svg:active{
+    box-shadow: 0;
+}
+
+.block{
+    height: 130px;
+    /* display: flex; */
+    width: 100%;
+    font-size: 200;
+    margin-top: 25px;
+    display: none;
+    transition: 0.3s;
+}
+
+.block:hover{
+    scale: 1.02;
+}
+
+.photo{
+    width: 130px;
+    display: flex;
+    justify-content: end;
+}
+
+.photo svg{
+    width: 70px;
+}
+
+.info{
+    flex: 1;
+    padding: 30px;
+}
+
+.infoPlus{
+    /* display: flex; */
+    gap: 90px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 0px;
+    background-color: rgba(170, 201, 248, 0.363);
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: none;
+    transition: 0.3s;
+}
+.infoPlus:hover{
+    scale: 1.02;
+}
+
+.humidity , .wind{
+    text-align: center;
+}
+
+.humidity{
+    width: 98.53px;
+}
+
+span{
+    display: block;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 12px;
+}

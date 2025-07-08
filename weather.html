@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+   
+</head>
+<body>
+    <div class="card">
+      <div class="search">
+  <input type="text" id="cityInput" placeholder="type here">
+<button id="searchBtn" title="Search">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.5 17.5L22 22m-2-11a9 9 0 1 0-18 0a9 9 0 0 0 18 0" />
+  </svg>
+</button>
+</div>
+<span>information not found</span>
+
+    <div class="block">
+        <div class="photo"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="130" viewBox="0 0 16 16"><path fill="currentColor" d="M10.746 5.005A5.5 5.5 0 0 1 10.5 16H4a4 4 0 0 1-1.61-7.663A4.473 4.473 0 0 1 2.029 7H.5a.5.5 0 0 1 0-1h1.527a4.479 4.479 0 0 1 .957-2.309L1.646 2.354a.5.5 0 1 1 .708-.708L3.69 2.984A4.479 4.479 0 0 1 6 2.027V.5a.5.5 0 0 1 1 0v1.528a4.493 4.493 0 0 1 2.309.956l1.337-1.338a.5.5 0 0 1 .708.708L10.016 3.69c.311.388.56.831.73 1.314M4 15h6.5a4.5 4.5 0 1 0-4.152-6.239A3.995 3.995 0 0 1 8 12a.5.5 0 1 1-1 0a3 3 0 1 0-3 3m5.691-9.94a3.5 3.5 0 1 0-6.33 2.991a4.029 4.029 0 0 1 2.106.227a5.505 5.505 0 0 1 4.224-3.219"/></svg></div>
+        <div class="info">
+            <h1>22°c</h1>
+            <h2>New York</h2></div>
+        </div>
+    
+    <div class="infoPlus">
+        <div class="humidity">
+           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21.5q-3.325 0-5.663-2.3T4 13.6q0-1.575.613-3.012T6.35 8.05L12 2.5l5.65 5.55q1.125 1.1 1.738 2.538T20 13.6q0 3.3-2.337 5.6T12 21.5m0-2q2.5 0 4.25-1.713T18 13.6q0-1.175-.45-2.237T16.25 9.5L12 5.3L7.75 9.5q-.85.8-1.3 1.863T6 13.6q0 2.475 1.75 4.188T12 19.5"/></svg>
+            <p class="prozent">53%</p>
+            <p>Humidity</p>
+        </div>
+
+        <div class="wind">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M3 8h2m2-2.143V5.5A2.5 2.5 0 1 1 9.5 8H8m-4 6h1m10 3v.5a3.5 3.5 0 1 0 3.5-3.5H9m-7-3h6m7-3v-.5a3.5 3.5 0 1 1 3.5 3.5h-6.25"/></svg>            
+            <p class="speed">5.66 km/h</p>
+            <p>Wind Speed</p>
+        </div>
+    </div>
+    </div> 
+    <script src="weather.js"></script>
+</body>
+</html>
